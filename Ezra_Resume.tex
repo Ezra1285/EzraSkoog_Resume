@@ -1,0 +1,136 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.7in,top=0.4in,right=0.7in,bottom=0.5in]{geometry} % Document margins
+\usepackage{romannum}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{enumitem}
+
+
+%----------------------------------------------------------------------------------------
+%   DOCUMENT START
+%----------------------------------------------------------------------------------------
+\name{Ezra Skoog} % Your name
+\address{(910)~$\cdot$~850~$\cdot$~7049 \\ ezraskoog@yahoo.com \\ https://github.com/Ezra1285 \\ www.linkedin.com/in/ezra-skoog
+} % Your phone number and email
+\begin{document}
+\title{Ezra's Resume}
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+\begin{rSubsection}{Montana State University}{Graduation Date: May 2024}{BS.in Computer Science }{Overall GPA: 3.7}
+{Related Courses:} {Calculus \Romannum{1} \& \Romannum{2}, Data structures and algorithms \Romannum{1} \& \Romannum{2}, Embedded Systems, Web Design, Robotic Vision, Computer Security, Networks, Database Systems, Programming with c, Software Engineering, System Administration, Discrete Structures, Compilers, and Linear Algebra.}
+
+\end{rSubsection}
+
+
+%\vspace{-.1cm}
+\vspace{-.65cm}
+\item[]
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{Ascent Vision Technologies}{June 2022 - Present}{Software Engineering Intern}{Belgrade, MT}
+\begin{itemize}[leftmargin=*, label={}]
+\setlength\itemsep{-1.7em}
+\item -Worked with our Production team to fully automate the setup process of our passive radar systems using a Raspberry Pi. \\
+\item -Created an automated test cycler in order to find a rare bug case in our gyro-stabilized camera EO lenses and video stream. \\
+\item -Developed an algorithm to detect and correct dead pixels through an IR lens.\\
+\item -Helped with implementing new front-end features for the gimbals GUI.  \\
+\item -Assisted with developing and testing unit/regression tests for new software releases. 
+\end{itemize}
+\end{rSubsection}
+
+\begin{rSubsection}{Foundant Technologies}{November 2021 - May2022}{Client Service Intern}
+{Bozeman, MT}
+\begin{itemize}[leftmargin=*, label={}]
+\setlength\itemsep{-1.7em}
+\item -Identified customer needs through active listening techniques to help build a relationship with the customer. \\
+\item -Continuously gained product knowledge through discussing difficult problems and keeping up to date with new releases. \\
+\item -Demonstrated the ability to think and act quickly in dynamic situations.
+\end{itemize}
+\end{rSubsection}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%   Technical Experience 
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+\begin{rSubsection}{Inventory Management System } {April 2022}{}{}
+\item[]\href{https://github.com/turnerburchard/322-inventory}{\emph{github.com/InventoryManagement}}
+\item Worked with a team using the SCRUM development process to complete a sprint.
+\item Created and utilized UML 2.0 models, including uses cases, class diagrams, activity diagrams, and sequence diagrams.
+\item Implemented various design patterns such as the singleton and observer pattern.
+\end{rSubsection}
+\begin{rSubsection}{Educational Cryptocurrency Website} {November 2021}{}{}
+\item[]\href{https://github.com/Ezra1285/CryptoEducation}{\emph{github.com/Crypto}}
+\item Gained knowledge of a complex technology and then presented that information in a way that anyone can understand.
+\item Utilized flexbox and grid models to acquire a better understanding of website design.
+\end{rSubsection}
+\iffalse
+\begin{rSubsection}{UUP SIAM - Direct Tap Machine Learning}{April 2017 - Present}{}{City One, UP}
+\item Built a model to visualize the correlation between order quantity and seasonality, using Python pandas and matplotlib
+\end{rSubsection}
+\fi
+\iffalse
+\begin{rSubsection}{JavaScript 8 Puzzle Solver}{December 2016}{}{}
+\item Developed a sliding puzzle solver in pure JavaScript to animate a step by step solution
+\item Is able to solve 3x3 tile board in less than 1 second using the A* algorithm
+\end{rSubsection}
+\fi
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+% \iffalse
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & Python, C/C++, Java, HTML/CSS, LaTex \\
+Tools & Microprocessors, Ubuntu, Git, Wire-shark, FLTK C++, VMware \\
+\end{tabular}
+
+\end{rSection}
+% \fi
+%----------------------------------------------------------------------------------------
+%   INTERESTS
+%----------------------------------------------------------------------------------------
+\iffalse
+\begin{rSection}{Interests}
+Cycling\hspace{1cm}Basketball\hspace{1cm}Soccer\hspace{1cm}Automation\hspace{1cm}Electronics Hobbyist
+\end{rSection}
+\fi
+%----------------------------------------------------------------------------------------
+
+\end{document}
